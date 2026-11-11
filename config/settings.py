@@ -1,4 +1,4 @@
-from pathlib import Path
+﻿from pathlib import Path
 
 import os
 
@@ -25,6 +25,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # SmartDesk applications
+    "apps.users.apps.UsersConfig",
+    "apps.tickets.apps.TicketsConfig",
+    "apps.ai_engine.apps.AiEngineConfig",
+    "apps.analytics.apps.AnalyticsConfig",
 ]
 
 MIDDLEWARE = [
